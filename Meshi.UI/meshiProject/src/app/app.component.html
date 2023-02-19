@@ -1,0 +1,22 @@
+<div class="chart-container">
+  <canvas  id="ChartSine" >{{ chartSine }}</canvas>
+  <canvas  id="ChartState" >{{ chartState }}</canvas>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">TimeStamp</th>
+        <th scope="col">Value</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let item of reads">
+      <tr [ngClass]="{'red': item.anomaly === true}">
+         <th scope="row">1</th>
+         <td>{{item.timestamp}}</td>
+         <td>{{item.value}}</td>
+         <td>{{item.type}}</td>
+      </tr>        
+    </tbody>
+  </table>
+</div>

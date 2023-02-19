@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meshi.Server", "Meshi.Server\Meshi.Server.csproj", "{EDAEF1C0-C713-4A64-925A-CF376F13B957}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meshi.IOTDevice", "Meshi.IOTDevice\Meshi.IOTDevice.csproj", "{80BF9851-1267-4CB0-8F4E-3CA539AC0C5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26549D80-E0C3-4A2A-A951-FC7AA79D1E44}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDAEF1C0-C713-4A64-925A-CF376F13B957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAEF1C0-C713-4A64-925A-CF376F13B957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAEF1C0-C713-4A64-925A-CF376F13B957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAEF1C0-C713-4A64-925A-CF376F13B957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BF9851-1267-4CB0-8F4E-3CA539AC0C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BF9851-1267-4CB0-8F4E-3CA539AC0C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BF9851-1267-4CB0-8F4E-3CA539AC0C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BF9851-1267-4CB0-8F4E-3CA539AC0C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A93B2CFD-2CC7-4843-ABE9-DF545CD4FF57}
+	EndGlobalSection
+EndGlobal
